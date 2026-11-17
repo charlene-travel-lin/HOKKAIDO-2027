@@ -1,28 +1,23 @@
-HOKKAIDO 2027 TRAVEL SITE · V2.0
-Travel dates: 2027/03/07–2027/03/16
+北海道 HOKKAIDO｜2027.03.07–03.16 個人旅行網站 V3.0
 
-FILES
-- index.html: main responsive travel website
-- assets/hokkaido-hero.gif: original animated Hokkaido winter hero illustration
-- site.webmanifest, icon.png（新版日雜風冬日北海道圖示）: installable web app metadata and icon
+更新內容：
+- 新增札幌美食指南分類：和牛燒肉、成吉思汗、拉麵、壽司海鮮、湯咖哩、待確認名單。
+- 各餐廳補上地區、特色料理、價格區間、排隊／訂位提醒與官方／地圖連結。
+- 收錄徳寿 しんら亭、大黒屋札幌壱號廛、信玄、弟子屈拉麵、根室花まる、Toriton、GARAKU。
+- 第一個 Google Maps 短網址解析為 Cafe Den，與「薄野版一粒萬福」是否同店尚未確認，故保留待確認標示。
+- 將最新上傳的 5 張札幌服飾購物圖片加入購物圖庫。
+- 保留既有航班、住宿、每日天氣、景點照片、每日地圖、伴手禮及購物資訊。
 
-FEATURES
-- Mobile-first layout inspired by the user's Kyoto/Osaka itinerary website
-- Animated hero banner
-- 10 daily itinerary tabs and mobile bottom navigation
-- Daily weather cards: Open-Meteo forecast is requested automatically when the travel date enters the forecast window. Until then, the site shows a clearly labeled seasonal planning note rather than invented forecasts.
-- Daily interactive maps using Leaflet + OpenStreetMap, with markers for that day's stops
-- Daily photo preview and a grouped photo guide with source credits
-- Flight, hotel, transport, dining and preparation sections
-- Checklist progress saved in the browser's localStorage
+部署方式：
+1. 解壓縮 ZIP。
+2. 將 index.html、icon.png、site.webmanifest、assets/ 一併上傳至 GitHub Pages 專案根目錄。
+3. 請保留 assets 資料夾結構，不要只上傳 index.html。
 
-IMPORTANT
-- Internet access is required for Open-Meteo weather, Leaflet map tiles, Google Fonts and remote attraction photos.
-- 2027 train times, restaurant opening hours, the Asahiyama Zoo penguin walk schedule, and the Lake Suite shuttle reservation / meal adjustment remain subject to confirmation. The website keeps these items labeled as pending where appropriate.
-- No booking QR codes or sensitive booking credentials are embedded.
+價格及營業資訊為目前查詢參考，2027 年 3 月仍需再次確認。
 
-GITHUB PAGES
-Upload the contents of this ZIP to the root of your GitHub Pages repository (not the ZIP file itself), preserving the assets/ folder structure. Commit and wait for GitHub Pages to deploy.
 
-PHOTO SOURCES
-Photo references and source credits are shown in the photo guide cards. The animated hero illustration was generated for this website.
+V3.0 更新：
+- 美食卡片新增明確城市標籤（札幌／小樽／旭川／函館／帶廣等），並維持料理分類。
+- 新增 Fromage Danish DANI LeTAO（小樽）、拉麵渡海家（小樽）、Saint Germain（札幌東急百貨 B1）、和牛黑澤（小樽堺町通店）。
+- 北菓樓分開標示小樽本館、札幌本館／大丸札幌店，避免只寫品牌而不知道去哪裡。
+- 餐廳卡片共 31 張，包含原有店家與分店資訊。
